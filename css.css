@@ -1,0 +1,173 @@
+
+        /* General Styles */
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #005a9e, #00ffd4);
+       color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+        }
+
+        /* Chat Container */
+        .chat-container {
+            width: 90%;
+            max-width: 400px;
+            background: linear-gradient(135deg, #005a9e, #00ffd4);
+         border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* Chat Header */
+        .chat-header {
+            background: linear-gradient(135deg, #00ffd4, #005a9e);
+            padding: 15px;
+            display: flex;
+            align-items: center;
+            color: white;
+        }
+
+        .chat-header img {
+                        background: linear-gradient(135deg, #00ffd4, #005a9e);
+       
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            margin-right: 10px;
+            border: 2px solid white;
+        }
+
+        .chat-header h2 {
+            font-size: 18px;
+            margin: 0;
+        }
+
+        /* Chat Messages */
+        .chat-messages {
+            
+            padding: 15px;
+            height: 300px;
+            overflow-y: auto;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .message {
+            
+            padding: 10px;
+            border-radius: 12px;
+            font-size: 14px;
+            max-width: 80%;
+            position: relative;
+        }
+
+        .message.user {
+            
+                        background: linear-gradient(135deg, #00ffd4, #005a9e);
+             align-self: flex-end;
+            color: white;
+        }
+
+        .message.bot {
+                        background: linear-gradient(135deg, #00ffd4, #005a9e);
+              align-self: flex-start;
+            color: white;
+        }
+
+        /* Message Actions */
+        .message-actions {
+            position: absolute;
+            top: 5px;
+            right: 5px;
+            display: flex;
+            gap: 5px;
+        }
+
+        .message-actions button {
+            background: none;
+            border: none;
+            color: white;
+            cursor: pointer;
+            font-size: 14px;
+        }
+
+        /* Input Section */
+        .input-area {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 15px;
+            background: #ffa2a;
+        }
+
+        textarea {
+            width: 100%;
+            height: 100px;
+            padding: 12px;
+            border-radius: 8px;
+        background: linear-gradient(135deg, #005a9e, #00ffd4);
+     color: white;
+            border: none;
+            font-size: 16px;
+            resize: none;
+        }
+
+        textarea:focus {
+            outline: none;
+        }
+
+
+        button {
+            width: 100%;
+            padding: 12px;
+            margin-top: 10px;
+            background: #0078d4;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: bold;
+        }
+
+        button:hover {
+            background: #005a9e;
+        }
+
+        /* Error Message */
+        .error-message {
+            color: #ff4c4c;
+            font-size: 14px;
+            margin-top: 10px;
+            display: none;
+        }
+.note-box {
+    background: linear-gradient(135deg, #005a9e, #00ffd4);
+          color: white;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 14px;
+    width: 90%;
+    max-width: 400px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 5px rgba(255, 255, 255, 0.1);
+}
+.note-box ul {
+    padding-left: 15px;
+}
+.note-box li {
+    margin-bottom: 5px;
+}
+
+    
+    
+    
+    
